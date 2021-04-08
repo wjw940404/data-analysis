@@ -27,6 +27,14 @@ print(np.arange(10, 50, step=2))
 arr_random1 = np.random.randint(0, 100, size=(3, 4))
 print(arr_random1)
 
+print("-------------------------")
+# for循环
+for i in arr_random1:
+    for j in i:
+        print(j)
+
+print("-------------------------")
+
 arr_random2 = np.random.randint(0, 100, size=(4, 3))
 print(arr_random2)
 
